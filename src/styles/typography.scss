@@ -1,0 +1,111 @@
+@layer components {
+  .h1 {
+    @apply text-[56px] leading-[1.125] font-bold;
+  }
+
+  .h1d {
+    @apply text-[56px] leading-[1.125] font-semibold;
+  }
+
+  .h2 {
+    @apply text-[48px] leading-[1.125] font-bold;
+  }
+  
+  .h2d {
+    @apply text-[48px] leading-[1.125] font-semibold;
+  }
+
+  .h3 {
+    @apply text-[40px] leading-[1.25] font-bold;
+  }
+  
+  .h3d {
+    @apply text-[40px] leading-[1.25] font-light;
+  }
+
+  .h4 {
+    @apply text-[32px] leading-[1.25] font-semibold;
+  }
+
+  .h4d {
+    @apply text-[32px] leading-[1.25] font-light;
+  }
+
+  .h5 {
+    @apply text-[24px] leading-[1.5] font-semibold;
+  }
+
+  .h5d {
+    @apply text-[24px] leading-[1.5] font-light;
+  }
+
+  .h6 {
+    @apply text-[20px] leading-[1.5] font-semibold;
+  }
+
+  .h6d {
+    @apply text-[20px] leading-[1.5] font-light;
+  }
+
+  .subtitle-bold {
+    @apply text-[18px] leading-[1.25] font-bold;
+  }
+
+  .subtitle-semibold {
+    @apply text-[18px] leading-[1.25] font-semibold;
+  }
+
+  .subtitle-regular {
+    @apply text-[18px] leading-[1.25] font-normal;
+  }
+
+  // Body text
+  .body-regular {
+    @apply text-[16px] leading-[1.25] font-normal;
+  }
+
+  .body-bold {
+    @apply text-[16px] leading-[1.25] font-bold;
+  }
+
+  .body-semibold {
+    @apply text-[16px] leading-[1.25] font-semibold;
+  }
+
+  .body-medium {
+    @apply text-[16px] leading-[1.25] font-medium;
+  }
+
+  .body-thin {
+    @apply text-[16px] leading-[1.25] font-light;
+  }
+
+  .body-hint {
+    @apply text-[16px] leading-[1.25] font-light italic;
+  }
+
+  // Lable text
+  .label-large-regular {
+    @apply text-[14px] leading-[1.5] font-normal;
+  }
+
+  .label-small-regular {
+    @apply text-[12px] leading-[1.5] font-normal;
+  }
+
+  .label-large-bold {
+    @apply text-[14px] leading-[1.5] font-semibold; 
+  }
+
+  .label-small-bold {
+    @apply text-[12px] leading-[1.5] font-semibold; 
+  }
+
+  .label-large-thin {
+    @apply text-[14px] leading-[1.5] font-light; 
+  }
+
+  .label-small-thin {
+    @apply text-[12px] leading-[1.5] font-light;
+  }
+}
